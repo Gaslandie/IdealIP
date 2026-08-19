@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { assetPath } from "@/lib/assets";
 import { site } from "@/lib/site";
 import Arrow from "./Arrow";
 
@@ -7,7 +8,7 @@ export default function Hero() {
   return (
     <section className="relative flex min-h-[max(100svh,36rem)] flex-col justify-end overflow-hidden bg-ink-900 pt-(--header-h)">
       <Image
-        src="/images/hero.jpg"
+        src={assetPath("/images/hero.jpg")}
         alt="Pelle mécanique sur un chantier de terrassement"
         fill
         priority

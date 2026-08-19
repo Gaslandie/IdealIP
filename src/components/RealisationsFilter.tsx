@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { assetPath } from "@/lib/assets";
 import type { Realisation } from "@/lib/site";
 
 type Props = {
@@ -141,7 +142,7 @@ export default function RealisationsFilter({ items }: Props) {
                     <Link href={`/realisations/${item.slug}`} className="group block">
                       <span className="relative block aspect-[4/3] overflow-hidden bg-ink-900">
                         <Image
-                          src={item.cover}
+                          src={assetPath(item.cover)}
                           alt={`${item.title} — ${item.location}`}
                           fill
                           sizes="(min-width: 768px) 50vw, 100vw"

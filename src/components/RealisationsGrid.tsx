@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { assetPath } from "@/lib/assets";
 import { realisations } from "@/lib/site";
 
 /**
@@ -18,7 +19,7 @@ export default function RealisationsGrid() {
         >
           <Link href={`/realisations/${r.slug}`} className="absolute inset-0">
             <Image
-              src={r.cover}
+              src={assetPath(r.cover)}
               alt={`${r.title} — ${r.location}`}
               fill
               sizes={i === 0 ? "100vw" : "(min-width: 768px) 50vw, 100vw"}

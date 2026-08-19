@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { assetPath } from "@/lib/assets";
 
 type BreadcrumbItem = {
   label: string;
@@ -32,7 +33,7 @@ export default function PageHero({
       className={`relative flex ${minHeight} flex-col justify-end overflow-hidden bg-ink-900 pt-(--header-h)`}
     >
       <Image
-        src={image}
+        src={assetPath(image)}
         alt={imageAlt}
         fill
         priority

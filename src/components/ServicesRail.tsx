@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { assetPath } from "@/lib/assets";
 import { services } from "@/lib/site";
 
 /** Rail horizontal à défilement — motif « commodities » de glencore.com. */
@@ -54,7 +55,7 @@ export default function ServicesRail() {
             >
               <div className="relative aspect-[4/3] overflow-hidden bg-ink-900">
                 <Image
-                  src={s.image}
+                  src={assetPath(s.image)}
                   alt={`IdéalTP — ${s.title}`}
                   fill
                   sizes="(min-width: 1280px) 26rem, (min-width: 640px) 22rem, 80vw"

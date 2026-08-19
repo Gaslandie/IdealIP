@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { assetPath } from "@/lib/assets";
 
 type LightboxImage = {
   src: string;
@@ -125,7 +126,7 @@ export default function Lightbox({ images }: Props) {
             >
               <span className="relative block aspect-[4/3] overflow-hidden bg-ink-900">
                 <Image
-                  src={image.src}
+                  src={assetPath(image.src)}
                   alt={image.alt}
                   fill
                   sizes="(min-width: 1280px) 33vw, (min-width: 768px) 50vw, 100vw"
@@ -194,7 +195,7 @@ export default function Lightbox({ images }: Props) {
 
             <div className="relative min-h-[16rem] overflow-hidden bg-ink-900 md:min-h-[32rem]">
               <Image
-                src={currentImage.src}
+                src={assetPath(currentImage.src)}
                 alt={currentImage.alt}
                 fill
                 sizes="100vw"

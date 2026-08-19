@@ -4,6 +4,7 @@ import CtaDevis from "@/components/CtaDevis";
 import PageHero from "@/components/PageHero";
 import SectionHeader from "@/components/SectionHeader";
 import Stats from "@/components/Stats";
+import { assetPath } from "@/lib/assets";
 import {
   moyens,
   site,
@@ -90,7 +91,7 @@ export default function AProposPage() {
         <div className="container-gc grid gap-10 xl:grid-cols-2 xl:gap-20">
           <div className="relative aspect-[4/5] overflow-hidden bg-ink-900">
             <Image
-              src="/images/apropos.jpg"
+              src={assetPath("/images/apropos.jpg")}
               alt="Technicien IdéalTP en intervention sur le terrain"
               fill
               sizes="(min-width: 1280px) 50vw, 100vw"

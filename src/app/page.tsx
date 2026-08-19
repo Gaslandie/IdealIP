@@ -8,6 +8,7 @@ import Stats from "@/components/Stats";
 import RealisationsGrid from "@/components/RealisationsGrid";
 import ArrowLink from "@/components/ArrowLink";
 import CtaDevis from "@/components/CtaDevis";
+import { assetPath } from "@/lib/assets";
 import { actualites, site, valeurs } from "@/lib/site";
 
 export default function Home() {
@@ -69,7 +70,7 @@ export default function Home() {
           <div className="grid gap-12 xl:grid-cols-2 xl:gap-20">
             <Reveal className="relative min-h-[24rem] overflow-hidden bg-ink-900 xl:min-h-[34rem]">
               <Image
-                src="/images/apropos.jpg"
+                src={assetPath("/images/apropos.jpg")}
                 alt="Pelle mécanique travaillant sur un chantier de terrassement"
                 fill
                 sizes="(min-width: 1280px) 50vw, 100vw"

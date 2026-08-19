@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { assetPath } from "@/lib/assets";
 import { site, whatsappLink } from "@/lib/site";
 import Reveal from "./Reveal";
 
@@ -7,7 +8,7 @@ export default function CtaDevis() {
   return (
     <section className="relative overflow-hidden bg-ink-900 text-white">
       <div className="absolute inset-0 opacity-[0.18]">
-        <Image src="/images/hero.jpg" alt="" fill sizes="100vw" className="object-cover" />
+        <Image src={assetPath("/images/hero.jpg")} alt="" fill sizes="100vw" className="object-cover" />
       </div>
       <div className="container-gc relative section-gc">
         <div className="grid gap-12 xl:grid-cols-[1.2fr_1fr] xl:gap-24">

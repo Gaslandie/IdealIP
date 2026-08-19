@@ -7,6 +7,7 @@ import SectionHeader from "@/components/SectionHeader";
 import ArrowLink from "@/components/ArrowLink";
 import RealisationsGrid from "@/components/RealisationsGrid";
 import CtaDevis from "@/components/CtaDevis";
+import { assetPath } from "@/lib/assets";
 import { methode, services, site } from "@/lib/site";
 
 const description =
@@ -85,7 +86,7 @@ export default function ServicesPage() {
                   }`}
                 >
                   <Image
-                    src={service.image}
+                    src={assetPath(service.image)}
                     alt={`${service.title} IdéalTP sur chantier en Guinée`}
                     fill
                     sizes="(min-width: 1280px) 50vw, 100vw"
