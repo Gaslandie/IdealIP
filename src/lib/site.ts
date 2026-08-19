@@ -112,7 +112,8 @@ export const services: Service[] = [
       "Rapport de contrôle géométrique",
       "Plan de récolement",
     ],
-    image: "/images/service-implantation.jpg",
+    image:
+      "https://images.unsplash.com/photo-1682063631532-b865521538fa?auto=format&fit=crop&w=1600&q=80",
   },
   {
     num: "04",
@@ -251,13 +252,14 @@ export const realisations: Realisation[] = [
     category: "Lotissement",
     location: "Dubréka",
     year: "2025",
-    cover: "/images/realisations/lotissement-khorira/cover.jpg",
+    cover:
+      "https://images.unsplash.com/photo-1682063631532-b865521538fa?auto=format&fit=crop&w=1600&q=80",
     gallery: [
-      "/images/realisations/lotissement-khorira/01.jpg",
-      "/images/realisations/lotissement-khorira/02.jpg",
-      "/images/realisations/lotissement-khorira/03.jpg",
-      "/images/realisations/lotissement-khorira/04.jpg",
-      "/images/realisations/lotissement-khorira/05.jpg",
+      "https://images.unsplash.com/photo-1682063631532-b865521538fa?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1682063631532-b865521538fa?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1540039671641-ad99d86c68d0?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1682063631532-b865521538fa?auto=format&fit=crop&w=1600&q=80",
     ],
     summary:
       "Découpage, bornage et plan de masse d’un ensemble résidentiel organisé autour de voies lisibles et de parcelles contrôlées.",
@@ -277,12 +279,13 @@ export const realisations: Realisation[] = [
     category: "Topographie",
     location: "Kagbelen",
     year: "2025",
-    cover: "/images/realisations/leve-topographique-kagbelen/cover.jpg",
+    cover:
+      "https://images.unsplash.com/photo-1682063631532-b865521538fa?auto=format&fit=crop&w=2000&q=80",
     gallery: [
-      "/images/realisations/leve-topographique-kagbelen/01.jpg",
-      "/images/realisations/leve-topographique-kagbelen/02.jpg",
-      "/images/realisations/leve-topographique-kagbelen/03.jpg",
-      "/images/realisations/leve-topographique-kagbelen/04.jpg",
+      "https://images.unsplash.com/photo-1682063631532-b865521538fa?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1540039671641-ad99d86c68d0?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1682063631532-b865521538fa?auto=format&fit=crop&w=1600&q=80",
     ],
     summary:
       "Levé altimétrique et plan topographique d’un site industriel destiné aux études de plateforme, d’accès et de drainage.",
@@ -302,11 +305,12 @@ export const realisations: Realisation[] = [
     category: "Implantation",
     location: "Conakry",
     year: "2024",
-    cover: "/images/realisations/implantation-batiment-conakry/cover.jpg",
+    cover:
+      "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?auto=format&fit=crop&w=1600&q=80",
     gallery: [
-      "/images/realisations/implantation-batiment-conakry/01.jpg",
-      "/images/realisations/implantation-batiment-conakry/02.jpg",
-      "/images/realisations/implantation-batiment-conakry/03.jpg",
+      "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1682063631532-b865521538fa?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?auto=format&fit=crop&w=1600&q=80",
     ],
     summary:
       "Implantation d’axes, de niveaux et de repères de contrôle pour sécuriser le démarrage d’un chantier de bâtiments.",
@@ -326,12 +330,13 @@ export const realisations: Realisation[] = [
     category: "Travaux publics",
     location: "Dubréka",
     year: "2024",
-    cover: "/images/realisations/terrassement-voirie-dubreka/cover.jpg",
+    cover:
+      "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?auto=format&fit=crop&w=2000&q=80",
     gallery: [
-      "/images/realisations/terrassement-voirie-dubreka/01.jpg",
-      "/images/realisations/terrassement-voirie-dubreka/02.jpg",
-      "/images/realisations/terrassement-voirie-dubreka/03.jpg",
-      "/images/realisations/terrassement-voirie-dubreka/04.jpg",
+      "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1540039671641-ad99d86c68d0?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1682063631532-b865521538fa?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?auto=format&fit=crop&w=1600&q=80",
     ],
     summary:
       "Préparation de plateforme, cubatures et exécution d’une voirie d’accès avec contrôle des pentes et des niveaux.",
@@ -351,11 +356,12 @@ export const realisations: Realisation[] = [
     category: "Lotissement",
     location: "Coyah",
     year: "2023",
-    cover: "/images/realisations/bornage-parcelles-coyah/cover.jpg",
+    cover:
+      "https://images.unsplash.com/photo-1682063631532-b865521538fa?auto=format&fit=crop&w=1600&q=80",
     gallery: [
-      "/images/realisations/bornage-parcelles-coyah/01.jpg",
-      "/images/realisations/bornage-parcelles-coyah/02.jpg",
-      "/images/realisations/bornage-parcelles-coyah/03.jpg",
+      "https://images.unsplash.com/photo-1682063631532-b865521538fa?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1682063631532-b865521538fa?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1682063631532-b865521538fa?auto=format&fit=crop&w=1600&q=80",
     ],
     summary:
       "Vérification de limites, bornage contradictoire et production de plans pour régulariser un ensemble de parcelles.",

@@ -63,7 +63,7 @@ export default function AProposPage() {
         eyebrow="À propos"
         title="Une entreprise guinéenne, ancrée à Dubréka"
         intro="IdéalTP relie la précision topographique à l’exécution terrain pour accompagner les projets fonciers, bâtis et d’aménagement."
-        image="/images/apropos-hero.jpg"
+        image="https://images.unsplash.com/photo-1682063631532-b865521538fa?auto=format&fit=crop&w=2000&q=80"
         imageAlt="Équipe IdéalTP sur un chantier de topographie et travaux publics en Guinée"
         breadcrumb={[
           { label: "Accueil", href: "/" },
