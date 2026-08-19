@@ -13,11 +13,8 @@ export const site = {
   country: "Guinée",
   url: "https://idealtp.com", // À CONFIRMER (nom de domaine)
   email: "contact@idealtp.com", // À CONFIRMER
-  phones: [
-    "+224 000 00 00 00", // À CONFIRMER
-    "+224 000 00 00 01", // À CONFIRMER
-  ],
-  whatsapp: "224000000000", // À CONFIRMER — format international sans "+"
+  phones: ["+224 621 58 92 23"],
+  whatsapp: "224621589223", // Format international sans "+"
   facebook: "https://www.facebook.com/idealtp", // À CONFIRMER
   address: "Dubréka – Khorira, République de Guinée",
   horaires: "Lundi – samedi, 8h – 18h", // À CONFIRMER
